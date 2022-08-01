@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: comic sans ms;
+  background-color: #f77e21;
+}
+
+.navigation {
+  width: 100%;
+  height: 70px;
+  position: fixed;
+  position: fixed;
+  z-index: 9999;
+  box-shadow: 0 2px 5px #614124;
+}
+
+.navigation ul {
+  padding-top: 18px;
+  cursor: pointer;
+}
+
+.navigation ul li {
+  display: inline;
+  margin-left: 40px;
+}
+
+.navigation ul li a {
+  font-size: 28px;
+  font-weight: 600;
+  font-family: monospace;
+  text-decoration: none;
+  color: black;
+}
+
+.navigation ul li a:hover {
+  color: white;
+}
+
+.content {
+  padding: 100px;
+}
+
+.content .thumb1 {
+  font-size: 55px;
+  font-weight: 600;
+  padding-top: 70px;
+}
+
+.content .thumb2 {
+  font-size: 57px;
+  font-weight: 600;
+  position: absolute;
+  margin: 80px 25px 40px 25px;
+  background-color: #c3dbd9;
+  font-family: monospace;
+  color: #398ab9;
+}
+
+.content .img1 {
+  width: 650px;
+  height: 540px;
+  float: right;
+  border-radius: 20px;
+}
+
+.content .bg {
+  width: 300px;
+  height: 150px;
+  border-radius: 40px;
+  background-color: #c3dbd9;
+  position: absolute;
+  margin-top: 40px;
+  box-shadow: 5px 10px #888888;
+}
+
+.content .tentangKelas {
+  padding-top: 340px;
+}
+
+.content .tentangKelas h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.content .tentangKelas span {
+  color: white;
+}
+
+.content .tentangKelas p {
+  font-size: 20px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.content .tentangKelas img {
+  padding-left: 320px;
+  width: 500px;
+  height: 320px;
+}
+
+.content .tentangSiswa {
+  padding-top: 150px;
+}
+
+.content .tentangSiswa h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+}
+
+.content .tentangSiswa span {
+  color: white;
+}
+
+.content .tentangSiswa img {
+  width: 180px;
+  height: 180px;
+  padding-top: 30px;
+}
+
+.content .tentangSiswa .box {
+  display: inline-block;
+  padding-left: 30px;
+}
+
+.content .noAbsen h1 {
+  font-size: 40px;
+  font-weight: 600;
+  text-align: center;
+  padding-top: 150px;
+}
+
+.content .noAbsen span {
+  color: white;
+}
+
+.content .noAbsen table {
+  padding-top: 20px;
+  margin-left: 390px;
+}
+
+.content .noAbsen table tr,
+td {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.content .noAbsen th {
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.content .noAbsen tr td {
+  font-weight: 600;
+  font-family: monospace;
+}
+
+.content .mediaSocial {
+  padding-top: 150px;
+}
+
+.mediaSocial .socialMedia {
+  display: inline-block;
+}
+
+.mediaSocial .socialMedia a {
+  color: black;
+  text-decoration: none;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 70px;
+}
+
+.mediaSocial a:hover {
+  color: white;
+}
